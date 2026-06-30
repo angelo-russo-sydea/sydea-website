@@ -361,7 +361,7 @@ export const Contacts = () => {
         }
       </div>
 
-      {/* {
+      {
         TranslationsService.showContactFormMain() &&
         <div className="p-3">
         <div className="box-contact m-auto p-4">
@@ -450,7 +450,7 @@ export const Contacts = () => {
           </div>
         </div>
       </div>
-      } */}
+      }
     </div>
   );
 };
