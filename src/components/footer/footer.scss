@@ -1,0 +1,85 @@
+.footer {
+  background-color: #141414;
+  color: #fff;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.footer-logo-indastria {
+  height: 120px;
+}
+
+#footer-items {
+  list-style-type: none;
+
+  & a {
+    color: var(--dark-mode-title);
+    text-decoration: none;
+    font-size: 1rem;
+    &:hover {
+      color: var(--dark-mode-text);
+    }
+  }
+}
+
+.logo-social {
+  height: 30px;
+}
+
+.social-link {
+  &:hover {
+    color: var(--dark-mode-text);
+    .logo-social {
+      filter: brightness(0) saturate(100%) invert(93%) sepia(19%)
+        saturate(2563%) hue-rotate(330deg) brightness(104%) contrast(101%);
+    }
+  }
+  &.mob-nav {
+    // filter: brightness(0) saturate(100%) invert(93%) sepia(19%) saturate(2563%)
+    //   hue-rotate(330deg) brightness(104%) contrast(101%);
+  }
+}
+
+.btn-language {
+  border: 1px solid var(--dark-mode-text);
+  &:hover {
+    color: var(--dark-mode-title);
+    border-color: var(--dark-mode-title);
+  }
+}
+
+.dropdown-menu {
+  background: var(--dark-mode-background);
+  border: 1px solid var(--dark-mode-text);
+  border-radius: 0px;
+  & li span {
+    color: var(--dark-mode-text);
+    &:hover {
+      color: var(--sydBlack);
+      background-color: var(--dark-mode-title);
+    }
+  }
+}
+
+.ref-offices-footer {
+  color: var(--dark-mode-text);
+  &:hover {
+    color: var(--dark-mode-title);
+  }
+}
+
+.link-footer-area {
+  color: var(--dark-mode-title);
+  cursor: pointer;
+  &:hover {
+    color: var(--dark-mode-text);
+  }
+}
+
+@media (max-width: 480px) {
+  .text-footer {
+    font-size: 0.8rem;
+  }
+}

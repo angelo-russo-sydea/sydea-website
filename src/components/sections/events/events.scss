@@ -1,0 +1,19 @@
+.btn-action-event {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #fece2f;
+  color: #fece2f;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+.tile-center-events {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  text-align: left;
+  flex-grow: 1;
+}

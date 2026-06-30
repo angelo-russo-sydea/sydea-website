@@ -1,0 +1,39 @@
+.box-certifications {
+  // border: 2px solid #000;
+  border-radius: 5px;
+  background: #ececec;
+}
+
+.btn-download-cert {
+  cursor: pointer;
+  width: max-content;
+  &:hover {
+    color: var(--sydYellow);
+  }
+}
+
+.icon-certifications {
+  height: 5rem;
+  width: auto;
+}
+
+.box-cert {
+  width: max-content;
+  max-width: 200px;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.text-desc-cert {
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .box-cert {
+    max-width: 110px;
+    gap: 1rem;
+  }
+  .text-desc-cert {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,709 @@
+:root {
+  --odoo: #121053;
+  --odoo-light: #bdbdcd;
+  --odoo-mid: #414075;
+  --yellow: #fece2f;
+  --ink: #1a1917;
+  --ink-mid: #3d3c39;
+  --ink-muted: #7a7870;
+  --ink-faint: #c4c2bb;
+  --bg: #fafaf8;
+  --bg-warm: #f4f2ec;
+  --white: #ffffff;
+}
+
+/* HERO */
+.hero-meet {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  background: var(--white);
+}
+
+/* decorative stripe top */
+.hero-meet::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--odoo) 0%, var(--yellow) 100%);
+}
+
+.hero-meet-bg-word {
+  position: absolute;
+  right: -0.02em;
+  bottom: 3rem;
+  font-weight: 800;
+  font-size: clamp(120px, 22vw, 280px);
+  line-height: 1;
+  color: rgba(113, 75, 103, 0.05);
+  letter-spacing: -0.04em;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hero-meet-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.event-badge-meet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.event-pill-meet {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--odoo);
+  color: var(--white);
+  padding: 0.35rem 0.85rem;
+  border-radius: 2px;
+}
+
+.event-date-meet {
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--ink-muted);
+  letter-spacing: 0.04em;
+}
+
+.hero-meet-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-meet-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--odoo-mid);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero-meet-eyebrow::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 1.5px;
+  background: var(--odoo);
+  flex-shrink: 0;
+}
+
+.hero-meet-headline {
+  font-size: clamp(2.8rem, 6.5vw, 5rem);
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.035em;
+  margin-bottom: 2rem;
+  max-width: 820px;
+}
+
+.hero-meet-headline mark {
+  background: var(--yellow);
+  color: var(--odoo);
+  padding: 0 1rem;
+}
+
+.hero-meet-headline .underline-yellow {
+  display: inline;
+  background-image: linear-gradient(var(--yellow), var(--yellow));
+  background-size: 100% 6px;
+  background-repeat: no-repeat;
+  background-position: 0 92%;
+  padding-bottom: 2px;
+}
+
+.hero-meet-sub {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--ink-mid);
+  max-width: 460px;
+  line-height: 1.75;
+  margin-bottom: 2.5rem;
+}
+
+.hero-meet-sub em {
+  font-style: normal;
+  color: var(--ink-faint);
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.87rem;
+}
+
+.btn-cta-meet {
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--odoo);
+  color: var(--white);
+  border: none;
+  padding: 1.1rem 2.2rem;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition:
+    background 0.15s,
+    transform 0.15s;
+  align-self: flex-start;
+}
+
+.btn-cta-meet:hover {
+  background: #000000;
+  transform: translateY(-2px);
+  color: var(--white);
+}
+
+.btn-cta-meet .arrow {
+  display: inline-block;
+  transition: transform 0.15s;
+}
+.btn-cta-meet:hover .arrow {
+  transform: translateX(4px);
+}
+
+.hero-meet-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(10, 10, 10, 0.07);
+  position: relative;
+  z-index: 1;
+}
+
+.hero-meet-contact-info {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-item-label-meet {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.contact-item-val-meet {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--ink-mid);
+}
+
+.contact-item-val-meet a {
+  color: var(--ink-mid);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.contact-item-val-meet a:hover {
+  color: var(--odoo);
+}
+
+.hero-meet-location {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--ink-faint);
+  text-align: right;
+  line-height: 1.6;
+}
+
+/* TICKER */
+.ticker-meet {
+  background: var(--odoo);
+  padding: 0.85rem 0;
+  overflow: hidden;
+}
+
+.ticker-meet-track {
+  display: flex;
+  animation: ticker-meet 22s linear infinite;
+  white-space: nowrap;
+}
+
+.ticker-meet-item {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0 2rem;
+}
+
+.ticker-meet-item.hl {
+  color: var(--yellow);
+}
+
+@keyframes ticker-meet {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* EVENT INFO */
+.event-info-meet {
+  background: var(--odoo-light);
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.event-info-meet-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.event-info-meet-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--odoo-mid);
+}
+
+.event-info-meet-val {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--odoo);
+  letter-spacing: -0.01em;
+}
+
+.event-info-meet-sub {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--odoo-mid);
+}
+
+.event-info-meet-divider {
+  width: 1px;
+  height: 48px;
+  background: rgba(113, 75, 103, 0.2);
+  flex-shrink: 0;
+}
+
+.event-info-meet-headline {
+  margin-left: auto;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--odoo);
+  letter-spacing: 0.01em;
+  max-width: 260px;
+  line-height: 1.5;
+}
+
+/* SOLUTIONS */
+.solutions-meet {
+  padding: 5rem 2.5rem;
+  background: var(--white);
+}
+
+.solutions-meet-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.checklist-row-meet{
+  display: flex;
+      justify-content: space-around;
+}
+
+.lbl-nor-meet{
+    font-size: 0.95rem;
+    color: var(--ink);
+    line-height: 1.75;
+}
+.solution-card-meet {
+  background: var(--white);
+  padding: 2.25rem 1.75rem;
+  transition: background 0.2s;
+  border: 1px solid rgba(10, 10, 10, 0.07);
+  &:hover {
+  background: var(--bg);
+  }
+}
+.solution-title-meet{
+    font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.85rem;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem
+}
+.solution-desc-meet em {
+  font-style: normal;
+  color: var(--ink-faint);
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+}
+
+.solutions-logo-meet{
+  height: 35px;
+  width: auto;
+}
+
+
+
+/* SERVICES */
+.services-meet {
+  padding: 5rem 2.5rem;
+  background: var(--white);
+}
+
+.section-label-meet {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-label-meet::before {
+  content: "";
+  width: 20px;
+  height: 1.5px;
+  background: var(--odoo);
+  display: block;
+  flex-shrink: 0;
+}
+
+.services-meet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: rgba(10, 10, 10, 0.07);
+  border: 1px solid rgba(10, 10, 10, 0.07);
+}
+
+.service-card-meet {
+  background: var(--white);
+  padding: 2.25rem 1.75rem;
+  transition: background 0.2s;
+}
+
+.service-card-meet:hover {
+  background: var(--bg);
+}
+
+.service-num-meet {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--odoo-mid);
+  opacity: 0.6;
+  margin-bottom: 1.25rem;
+}
+
+.service-title-meet {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.85rem;
+  color: var(--ink);
+}
+
+.solution-desc-meet{
+    font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--ink-mid);
+  line-height: 1.75;
+}
+
+.service-desc-meet {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--ink-mid);
+  line-height: 1.75;
+}
+
+.section-light-gray-meet{
+  background-color: #f7f7f7;
+}
+
+.service-desc-meet em {
+  font-style: normal;
+  color: var(--ink-faint);
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+}
+
+.service-tags-meet {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag-meet {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--odoo-mid);
+  border: 1px solid rgba(113, 75, 103, 0.2);
+  background: var(--odoo-light);
+  padding: 0.2rem 0.55rem;
+  border-radius: 2px;
+}
+
+/* CTA BAND */
+.cta-band-meet {
+  background: var(--odoo);
+  padding: 4.5rem 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 3rem;
+}
+
+.cta-band-meet-headline {
+  font-size: clamp(1.75rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--white);
+}
+
+.cta-band-meet-headline span {
+  color: var(--yellow);
+}
+
+.cta-band-meet-sub {
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 0.75rem;
+  line-height: 1.65;
+}
+
+.btn-yellow-meet {
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--yellow);
+  color: var(--ink);
+  border: none;
+  padding: 1.1rem 2rem;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  white-space: nowrap;
+  transition:
+    opacity 0.15s,
+    transform 0.15s;
+}
+
+.btn-yellow-meet:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  color: var(--ink);
+}
+
+/* ABOUT */
+.about-meet {
+  padding: 5rem 2.5rem;
+  background: var(--bg-warm);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-meet-headline {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.about-meet-stats {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(10, 10, 10, 0.1);
+}
+
+.box-meet-stats {
+  text-align: center;
+}
+
+.stat-val-meet {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--odoo);
+  line-height: 3.5rem;
+  display: block;
+  letter-spacing: -3px;
+}
+
+.stat-label-meet {
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--ink-muted);
+  margin-top: 0.3rem;
+  letter-spacing: 0.04em;
+}
+
+.about-meet-body {
+  font-size: 1.1rem;
+  color: var(--ink-mid);
+  line-height: 1.8;
+}
+
+/* FOOTER */
+footer {
+  background: var(--ink);
+  color: rgba(255, 255, 255, 0.35);
+  padding: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-meet-eyebrow {
+  animation: fadeUp 0.5s ease 0.1s both;
+}
+.hero-meet-headline {
+  animation: fadeUp 0.55s ease 0.2s both;
+}
+.hero-meet-sub {
+  animation: fadeUp 0.55s ease 0.3s both;
+}
+.btn-cta-meet {
+  animation: fadeUp 0.55s ease 0.4s both;
+}
+
+.hero-box-justify{
+    display: flex;
+    justify-content: space-between;
+}
+.odoo-logo-silver-meet{
+  height: 100px;
+  width: auto;
+}
+.box-logo-hero-meet{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-meet {
+    padding: 1.5rem;
+    min-height: auto;
+  }
+  .hero-meet-center {
+    padding: 2.5rem 0;
+  }
+  .hero-meet-headline {
+    font-size: 2.8rem;
+  }
+  .hero-meet-bg-word {
+    display: none;
+  }
+  .event-info-meet {
+    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .event-info-meet-divider {
+    display: none;
+  }
+  .event-info-meet-headline {
+    margin-left: 0;
+  }
+  .services-meet {
+    padding: 3.5rem 1.5rem;
+  }
+  .services-meet-grid, .solutions-meet-grid {
+    grid-template-columns: 1fr;
+  }
+  .cta-band-meet {
+    grid-template-columns: 1fr;
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+  }
+  .about-meet {
+    grid-template-columns: 1fr;
+    padding: 3.5rem 1.5rem;
+    gap: 2rem;
+  }
+  .hero-meet-location {
+    text-align: left;
+  }
+  .hero-box-justify{
+    flex-direction: column;
+}
+.odoo-logo-silver-meet{
+  order: -1;
+}
+.box-content-hero-meet{
+  order: 1;
+}
+.checklist-row-meet{
+  flex-direction: column;
+}
+}

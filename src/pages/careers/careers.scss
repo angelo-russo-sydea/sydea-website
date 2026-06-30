@@ -1,0 +1,9 @@
+.width-open-roles {
+  width: 50%;
+}
+
+@media (max-width: 480px) {
+  .width-open-roles {
+    width: 100%;
+  }
+}

@@ -1,0 +1,138 @@
+.cls-1-map,
+.cls-2-map {
+  fill: none;
+}
+.cls-1-map,
+.cls-3-map,
+.cls-4-map {
+  stroke-width: 0px;
+}
+.cls-5-map {
+  fill: #fff;
+  & a:hover{
+    fill: var(--brand-color-main);
+  }
+}
+.cls-6-map,
+.cls-7-map,
+.cls-4-map {
+  fill: #ffce30;
+}
+.cls-6-map {
+  & a:hover{
+    fill: #fff;
+  }
+}
+.cls-8-map {
+  font-size: 20px;
+}
+.cls-8-map,
+.cls-7-map {
+  font-family: Play-Regular, Play;
+}
+.cls-2-map {
+  stroke: #ffce30;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.cls-3-map {
+  opacity: 0.9;
+}
+.cls-7-map {
+  font-size: 30px;
+}
+
+.box-contact {
+  width: 60%;
+  border: 2px solid var(--dark-mode-background);
+}
+
+.input-contact {
+  border-color: transparent;
+  background-color: #ededed;
+  border-radius: 0;
+  &:focus-visible {
+    outline: 2px solid var(--dark-mode-title);
+  }
+}
+
+.syd-checkbox {
+  appearance: none;
+  width: 2rem;
+  aspect-ratio: 1/1;
+  border: 2px solid var(--light-mode-text);
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.syd-checkbox:before {
+  content: "";
+  background-color: var(--dark-mode-title);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 1rem;
+  height: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.syd-checkbox:checked:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.syd-checkbox-label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.side-info-contact {
+  position: absolute;
+  left: 95%;
+  background-color: var(--light-mode-text);
+}
+
+.width-form {
+  width: 85%;
+}
+
+.box-locations-mobile {
+  display: none;
+  font-size: 0.8rem;
+}
+
+.map-locations {
+  display: block;
+}
+
+.link-office-contact{
+  color: #000;
+  transition: color .3s ease-in-out;
+  &:hover{
+    color: var(--brand-color-main);
+  }
+}
+
+@media (max-width: 480px) {
+  .box-contact {
+    width: 100%;
+  }
+  .width-form {
+    width: 100%;
+  }
+  .box-locations-mobile {
+    display: block;
+  }
+  .map-locations {
+    display: none;
+  }
+}

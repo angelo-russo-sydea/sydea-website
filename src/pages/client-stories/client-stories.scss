@@ -1,0 +1,52 @@
+.syd-chips {
+  border: 1px solid #7f7f7f;
+  cursor: pointer;
+  margin-bottom: 0.25rem;
+  margin-right: 0.25rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  color: #7f7f7f;
+
+  &.active {
+    background-color: #141414;
+    color: #fece2f;
+  }
+  &:hover {
+    border: 1px solid #141414;
+    color: #141414;
+    &.active {
+      background-color: #141414;
+      color: #fece2f;
+    }
+  }
+}
+
+.btn-clear-filter {
+  border: 1px solid #141414;
+  color: #f6f6f6;
+  background-color: #141414;
+  width: max-content;
+  cursor: pointer;
+}
+
+.cards-cl-sto {
+  aspect-ratio: 1/1;
+}
+
+.row-chips-client-stories{
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .syd-chips {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+  .row-chips-client-stories{
+  flex-wrap: nowrap;
+}
+}

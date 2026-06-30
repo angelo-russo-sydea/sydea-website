@@ -1,0 +1,145 @@
+.bg-loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    display: block;
+    --height-of-loader: 4px;
+    --loader-color: #fece2f;
+    width: 20vw;
+    height: var(--height-of-loader);
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  .loader::before {
+    content: "";
+    position: absolute;
+    background: var(--loader-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    animation: moving 1s ease-in-out infinite;
+    ;
+  }
+  
+  @keyframes moving {
+    50% {
+      width: 100%;
+    }
+  
+    100% {
+      width: 0;
+      right: 0;
+      left: unset;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.switch {
+  position: relative;
+  height: 34px;
+  width: 60px;
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.switch input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ba9833;
+  background-image: linear-gradient(315deg, #ba9833 0%, #993333 74%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 26px;
+  text-align: center;
+  box-shadow: 2px 5px 3px 1px #f3f4f7;
+}
+
+.slider:before {
+  position: absolute;
+  height: 1.5rem;
+  width: 1.5rem;
+  content: "";
+  font-size: 10px;
+  background-color: #f3f4f7;
+  background-image: linear-gradient(315deg, #f3f4f7 0%, #caccd1 74%);
+  top: 4px;
+  left: 4px;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #00b712;
+  background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  transition: 0.4s;
+  content: "";
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+.label_txt_unchecked {
+  color: #993333;
+  font-size: 21px;
+  margin: 0px;
+  transition: 0.4s;
+}
+.label_txt_checked {
+  color: #00b712;
+  font-size: 21px;
+  margin: 0px;
+  transition: 0.4s;
+}
+
+.label_txt {
+  margin: 0px 5px;
+}
+
+/* card css */
+
+.card::-webkit-scrollbar {
+  display: none;
+}

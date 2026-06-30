@@ -1,0 +1,72 @@
+.rdw-editor-main{
+  background: #fff;
+  border: 1px solid;
+}
+
+.toolbar-editor{
+  border: 2px solid #141414;
+  width: 90%;
+}
+
+.area-editor{
+  height: 70vh !important;
+  padding: 1rem 2rem !important;
+  border-radius: 2px !important;
+  border: 2px solid #141414 !important;
+  width: 90%;
+}
+
+.rdw-dropdown-wrapper a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn-langue-article{
+  border: 2px solid #141414;
+}
+
+.btn-sign{
+  background-color: #141414;
+  color: #f6f6f6;
+}
+
+.toast-editor{
+  background-color: #c70000;
+  width: max-content;
+  color: #fff;
+  position: fixed;
+  z-index: 1;
+  bottom: 1rem;
+  right: 1rem;
+  display: none;
+  cursor: pointer;
+  z-index: 2;
+  &.show{
+    display: block;
+  }
+}
+
+.dropdown-menu-items{
+  height: 400px;
+  overflow: auto;
+}
+
+.box-lbl-drop{
+  max-width: 95%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.drop-article-admin{
+  min-height: 2.5rem;
+}
+
+.dropdown-item{
+  cursor: pointer;
+}
+
+.btn-delete-img{
+  cursor: pointer;
+  width: fit-content;
+  margin-left: auto;
+}

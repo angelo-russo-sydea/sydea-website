@@ -1,0 +1,72 @@
+.slider-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.slider-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  cursor: grab;
+}
+
+.slider-container:active {
+  cursor: grabbing;
+}
+
+/* Nasconde scrollbar */
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+.slider-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Frecce */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.slider-arrow.left {
+  left: 8px;
+}
+
+.slider-arrow.right {
+  right: 8px;
+}
+
+.arrow-btn-slider {
+  border: 1px solid #090909;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  &:hover {
+    border: 1px solid #090909;
+  }
+  &:disabled {
+  opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-row{
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+  .slider-arrow {
+    display: none;
+  }
+}

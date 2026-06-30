@@ -1,0 +1,103 @@
+.cell-page {
+    min-width: 150px;
+    width: max-content;
+    // min-height: 100px;
+    border: solid 2px #fece2f;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cell-page .title-area {
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+  }
+  .cell-page .title-area .marker-icon {
+    font-size: 20px;
+  }
+  .cell-page .role-area {
+    font-size: 12px;
+    line-height: normal;
+    // width: 30px;
+    // height: 30px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // float: right;
+    // background: #6200ee;
+    // color: white;
+    // border-radius: 50%;
+    // font-size: 18px;
+    // font-weight: 400;
+  }
+  .cell-page .oval {
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assets/oval.png");
+    background-size: cover;
+    position: absolute;
+    bottom: -11px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .box-icon-view{
+    width: 20px;
+    height: 20px;
+    // border: 1px solid red;
+    object-fit: contain;
+    position: absolute;
+    bottom: -8.5px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  
+  .photo-box{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    object-fit: contain;
+    display: flex;
+    border-radius: 50%;
+  }
+
+  .overlay-modal-org-chart{
+    background-color: #000000b6;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+  }
+
+  .modal-box-org-chart{
+    background-color: #141414;
+    max-width: 90vw;
+    min-width: 50vw;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+  .btn-close-modal-org{
+    background-color: #1e1e1e !important;
+  }
+
+  .alert-content{
+    position: relative;
+  }
+
+  .box-org{
+    overflow: auto;
+  }

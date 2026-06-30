@@ -1,0 +1,306 @@
+{
+  "en": [
+    {
+      "id": "attendance-and-smartworking-planning",
+      "category": "Communication",
+      "title": "Attendance and Smart Working Planning",
+      "shortText": "The new procedure for weekly attendance planning is now active",
+      "longText": "<p>The new <b>procedure for the mandatory planning of office attendance and smart working days</b> is now in effect.</p><p>The goal is to improve activity organization and ensure a more effective and shared management of attendance across teams.</p><p>Planning must be carried out exclusively through the Time Off module in Odoo, following these main guidelines:</p><ul><li>requests must be submitted on a weekly basis</li><li>planning for the following week must be completed by Thursday</li><li>requests are approved by managers by Friday</li></ul><p>Accurate and timely submission of requests is essential for proper coordination of activities and efficient attendance management.</p><p>The full policy is available in the company Knowledge Base at the following link: <a href='https://www.sydea.com/en/sydea-hub/sydea-knowledge-base/hr/attendance-absences/type-of-time-off-on-odoo' target='_blank'><b>[Time Off Booking – Office Attendance and Smart Working]</b></a></p><p>Respecting the deadlines is essential to ensure proper work organization.</p>",
+      "date": "15/04/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/calendar-planning.jpg",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "odoo-academy-crm-and-sales",
+      "category": "News",
+      "title": "Carlo Liaci at Odoo Academy CRM & Sales",
+      "shortText": "Hands-on training to enhance commercial workflows",
+      "longText": "<p>Our colleague <b>Carlo Liaci</b> attended the <b>Odoo Academy CRM & Sales</b> in Rome, an immersive session focused on pipelines, lead management, and automation.</p><p>The hands-on experience provided a clear view of how Odoo can simplify commercial workflows and foster team collaboration.</p><p>A valuable opportunity to gain new skills and strengthen our ability to deliver concrete value in everyday projects.<div style='width: 100%; padding: 1rem; display: flex'><img src='https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/carlo-liaci-odoo-academy.png' style='width: 80%'></div>",
+      "date": "30/03/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/odoo-academy-roma-2026.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "odoo-business-show-skopje-2026",
+      "category": "News",
+      "title": "Sydea at the Odoo Business Show Skopje",
+      "shortText": "Sharing experiences and insights with the Odoo community",
+      "longText": "<p>On March 17, Sydea took part as a <b>Partner Sponsor</b> at the <b>Odoo Business Show</b> in <b>Skopje</b>.</p><p>During the event, the team had the opportunity to meet local clients, partners, and new contacts, gathering feedback on ongoing projects and suggestions for future developments. It was a valuable moment to better understand the needs of the North Macedonian market and share our approach to working with ERP.</p><p>Sydea also joined the <b>Partner Panel</b>, with our colleague <b>Gianmichele Mele</b> presenting how ERP solutions can streamline business processes and support more effective decision-making.</p><p>The event allowed the team to strengthen existing relationships and explore new collaboration opportunities in the region.</p><p>Thanks to all colleagues who made the participation and success of the event possible.</p>",
+      "date": "17/03/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/odoo-business-show-skopje.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "odoo-business-show-firenze-2026",
+      "category": "News",
+      "title": "Sydea at the Odoo Business Show in Florence",
+      "shortText": "An opportunity to discuss ERP, innovation, and new partnerships",
+      "longText": "<div><p>On March 10, Sydea took part as a <b>Partner Sponsor</b> at the <b>Odoo Business Show</b> in <b>Florence</b>.</p><p>During the day, the team met with clients, partners, and new contacts at the stand, discussing needs, projects, and potential future developments. It was a valuable opportunity to present our approach and gather concrete insights from the market. </p><p>Sydea also took part in the <b>Partner Panel</b>, with our colleague <b>Carlo Liaci</b> sharing our vision on how ERP systems can increasingly support business processes and decision-making. </p><p>For the team involved, it was a positive experience that helped strengthen existing relationships and open up new collaboration opportunities. </p><p>Thanks to all colleagues who participated and contributed to the success of the event. </p></div>",
+      "date": "10/03/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/odoo-business-show-firenze.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "vacation-plan-2026",
+      "category": "Communication",
+      "title": "Vacation Plan 2026",
+      "shortText": "Planning procedures and deadlines",
+      "longText": "<p>Please note that <b>the annual holiday allowance to be used each year is 22 days</b>. It is therefore important that everyone plans their absences properly during the year to avoid accumulating unused leave days.<br>Anyone who still has unused leave from previous periods should add those days to the leave budget to be used during the year.</p><p>Starting this year, leave planning will be organized in two moments dedicated to periods with a higher concentration of absences:</p><ul><li><b>Summer leave plan – deadline June 30</b>: By this date, employees are required to enter in Odoo the leave planned for the summer period (approximately between mid-July and mid-September).</li><li><b>Winter leave plan – deadline November 30</b>: By this date, employees are required to enter in Odoo the leave planned for the winter period (approximately between mid-December and mid-January).</li></ul><p>Leave planned for other periods of the year can be entered in Odoo normally during the year, following the usual request and approval process.</p><p>For any questions or needs, please contact the HR office.</p>",
+      "date": "09/02/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/hero-piano-ferie-2026.jpg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "sydea-xperience-2025-programme-published",
+      "category": "News",
+      "title": "Sydea XPerience 2025 programme published!",
+      "shortText": "Naples, 27–28 September 2025.",
+      "longText": "<p>The full program of <b>Sydea XPerience 2025</b> is now officially available! The event will bring together all Sydea teams for two days dedicated to sharing, growth, and fun.</p> <p>The program includes all the key moments of the event — from the opening conference to team-building activities and evening gatherings — designed to celebrate <b>Sydea’s 10th anniversary</b> and look ahead with enthusiasm to future projects.</p> <p>👉 Discover all the program details here: <a href='sydea-hub/sydea-x-perience#info'><b>SYDEA XPERIENCE 2025 PROGRAM</b></a></p>",
+      "date": "18/09/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/images/event-2025/x-perience-hero.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "rating-di-legalita",
+      "category": "News",
+      "title": "Legality Rating",
+      "shortText": "The AGCM awarded Sydea the Legality Rating with the score ★++",
+      "longText": "<p>The AGCM awarded Sydea the Legality Rating with the score ★++</p><p>The <b>Legality Rating</b> is a recognition introduced by the <i>Italian Competition Authority</i> (<b>AGCM</b>) with the aim of promoting and enhancing the adoption of ethical behavior by businesses. It is a synthetic indicator that certifies compliance with high standards of legality in corporate activities.</p><p>Introduced by <i>Decree Law No. 1</i> of January 24, 2012 and converted into <i>Law No. 27</i> of March 24, 2012, the rating serves as a concrete tool to encourage transparency and fairness in the Italian economic system, while also offering tangible benefits to the companies that obtain it, such as easier access to public funding and bank credit.</p><p>Companies (both sole proprietorships and corporations) can apply for the rating if they meet the following requirements:<ul><li>an operational headquarters in Italy;</li><li>a minimum turnover of two million euros in the financial year prior to the application;</li><li>registration in the Business Register for at least two years;</li><li>compliance with the requirements set out in the implementing Regulation.</li></ul></p><p>The score is awarded based on compliance with mandatory requirements and, where applicable, on additional rewarding criteria.</p>",
+      "date": "09/05/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/rating-legalita.webp",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "vacation-plan-2025",
+      "category": "Communication",
+      "title": "Vacation Plan 2025",
+      "shortText": "Deadline for submission of Vacation Plan 2025 on Odoo",
+      "longText": "<p>Once again this year, we invite you to submit your <b>Vacation Plan</b> for the year <b>2025</b> on Odoo.</p><br/><p>Please note that the <b>annual vacation budget</b> is <b>22 days</b> and must be used by <b>December 31, 2025</b> (except for case-by-case exceptions).</p><p>If you still have <b>unused vacation days from 2024</b>, you must add them to the budget to be used in 2025.</p><p>You are free to choose your vacation periods, but approval will be subject to evaluation. For the summer period, we kindly ask you to <b>prefer the central weeks of August</b>, where work and personal needs allow.</p><br/><p><b>📅 Deadline for submitting the Vacation Plan: May 16, 2025</b></p><p>If no proposal is submitted, the period will be assigned by management and shared with the relevant individuals.</p><br/><p><b>🔹 For those who joined the company in 2025</b></p><p>The available vacation budget is visible in your profile on Odoo (under the <i>Time off</i> menu) and is proportional to the actual months worked.<br/>If you haven’t accrued enough days for your desired vacation period, you can go into deficit: the excess days will be deducted from the 2026 budget.</p><br/><p>📌 <b>Employees who did not fully use their vacation budget from last year will be contacted individually</b> to review their remaining balance and integrate it into the 2025 plan.</p>",
+      "date": "23/04/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/vacation-plan.webp",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "dipendenti-in-cloud-italy",
+      "category": "Communication",
+      "title": "Dipendenti in Cloud - Italy",
+      "shortText": "La nuova piattaforma per la gestione delle buste paga e dei documenti per le sedi italiane.",
+      "longText": "<p>Per i dipendenti delle sedi di Bologna e Napoli, a partire da marzo 2025, le buste paga e i documenti relativi non saranno più disponibili su <i>Cezanne</i>, ma verranno gestiti tramite la piattaforma <b>Dipendenti in Cloud</b>.</p><p>Entro martedì 11 marzo, verranno attivati gli account personali. Si invita a seguire le indicazioni contenute nella mail di registrazione per accedere alla piattaforma.</p><p>Le buste paga e i documenti precedenti saranno accessibili in qualsiasi momento sia tramite il sito web di <i>Dipendenti in Cloud</i> che attraverso l'app mobile, disponibile per dispositivi iOS e Android.</p><p><i>Dipendenti in Cloud</i> sostituisce <i>Cezanne</i> per la gestione delle buste paga e dei documenti. La registrazione delle presenze, la gestione di ferie, permessi e tutto ciò che riguarda il <i>Time Off</i> continueranno invece a essere gestiti su <i>Odoo</i>.</p>",
+      "date": "07/03/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/dipendenti-in-cloud.png",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "welcome-andrea-bozzaotra-and-alex-tinella",
+      "category": "News",
+      "title": "Welcome Andrea Bozzaotra and Alex Tinella",
+      "shortText": "We are excited to welcome Andrea Bozzaotra and Alex Tinella.",
+      "longText": "<p>We are excited to welcome <b>Andrea Bozzaotra</b> and <b>Alex Tinella</b>, who join the Sydea family as of today!</p><p>Both join our team of <b>SAP consultants</b> in the Naples office. <br/>Andrea joins from Francesco Agrillo's team, while Alex will be managed by Pietro Natale</p><p>They both boast a young age, once again confirming Sydea's willingness to invest in young talent.</p><p>We are happy to have them with us and wish them a path full of growth and satisfaction.</p><div style='display:flex; gap: 2rem;'><div style='width:20%;'><img src='https://s3.eu-west-1.amazonaws.com/www.sydea.it/static/people/a.bozzaotra.circle.png' style='width:100%'/><p style='text-align:center;'><b>Andrea Bozzaotra</b></p></div><div style='width:20%;'><img src='https://s3.eu-west-1.amazonaws.com/www.sydea.it/static/people/a.tinella.circle.png' style='width:100%'/><p style='text-align:center;'><b>Alex Tinella</b></p></div></div>",
+      "date": "06/02/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/new-employee-2.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "welcome-to-giulio-colonelli-our-new-senior-abap-developer",
+      "category": "News",
+      "title": "Welcome to Giulio Colonelli, our new Senior ABAP Developer",
+      "shortText": "Giulio Colonelli joins the Sydea team as Senior ABAP Developer.",
+      "longText": "<div class='d-responsive-news'><div style='padding: 1rem' class='w-responsive-30'><img src='https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/giulio-colonelli.jpg' style='width:100%'/></div><div style='padding: 1rem' class='w-responsive-70'><p>Sydea keeps growing, and we are pleased to welcome <b>Giulio Colonelli</b>, who joined our team on January 2nd as a <b>Senior ABAP Developer</b>, as part of Pietro Natale’s team.</p><p>Giulio brings with him 8 years of experience in ABAP development, with a specialization in SAP <b>MM</b>, <b>FI</b>, and <b>CO</b> modules. <br/>He has also gained expertise in <b>SAP Fiori</b> and stands out for his skills in <b>data migration</b>, particularly in transitioning from Oracle to SAP.</p><p>In addition to his strong SAP background, Giulio has 3 years of experience as a <b>Web Developer</b>, which gives him a broader perspective on technologies and allows him to contribute with an innovative approach to development.</p><p>He is currently working on the ABK Gardenia and Atos projects, where he will leverage his technical expertise to support the team and contribute to the success of the implemented solutions.</p><p>We are excited to have him on board and are confident that his experience and skills will be a valuable asset to Sydea.</p><p><b>Welcome, Giulio! Wishing you great success in your new role!</b></p></div></div>",
+      "date": "17/01/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/new-employee.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "welcome-ivana-nakova-to-our-team-in-skopje",
+      "category": "News",
+      "title": "Welcome Ivana Nakova to our team in Skopje",
+      "shortText": "A new chapter for our Skopje team with the arrival of Ivana Nakova as SAP Senior Technical Consultant.",
+      "longText": "<p>We are pleased to announce that our <b>Skopje office</b> has recently welcomed <b>Ivana Nakova</b>, who has joined our team as an SAP Senior Technical Consultant.</p><p>With her enthusiasm and expertise, Ivana has already begun making a significant impact on our projects.</p><p>We are confident that her presence will add great value to the team and to Sydea as a whole, supporting our continued growth.</p><p>Let’s all extend a warm welcome to Ivana, wishing her a fulfilling and successful professional journey with us!</p><p>Thank you all for your ongoing support and team spirit, which are the true driving forces behind ourcompany.</p>",
+      "date": "10/12/2024",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/Skopje-square.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "christmas-bonus-2024-italy",
+      "category": "Communication",
+      "title": "Christmas Bonus 2024 - Italy",
+      "shortText": "Guidelines and Request Procedure for the Italian state Christmas Bonus 2024",
+      "longText": "<p>The Revenue Agency has recently published the guidelines for the <b>2024 Christmas Bonus</b>, a benefit provided by the Omnibus Decree (Decree Law No. 113/2024) for employees who meet specific income and family requirements.</p><p>According to the circular, the bonus may reach up to 100 euros and will be paid together with the December thirteenth salary.</p><p><b>Requirements to request the bonus:</b></p><ul><li>Total income in 2024 not exceeding €28,000</li><li>A legally and effectively non-separated spouse and at least one dependent child</li><li>A withholding under “IRPEF Withholdings” in the payslip</li></ul><p>If you are in a single-parent family situation (separated, widowed, custodial parent, or other specific circumstances), you can still apply for the bonus with at least one dependent child.</p><p>If you believe you meet the requirements, please complete and sign the attached form and send it to <a href='mailto:amministrazione@sydea.it'>amministrazione@sydea.it</a> by November 30, 2024.</p>",
+      "date": "12/11/2024",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/bonus-natale.jpg",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "thanks-marco-good-luck",
+      "category": "News",
+      "title": "Thanks Marco, good luck!",
+      "shortText": "This was Marco Tugnolo's last as a member of our development team.",
+      "longText": "<p>Sydea would like to announce that this was <b>Marco Tugnolo</b>'s last year as a member of our development team.</p><p>The company would like to thank Marco for his hard work and commitment throughout his time at Sydea, and wishes him the best of luck in his professional career as a developer.</p><p>Big hugs Marco, and good luck!</p>",
+      "date": "17/07/2023",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/thanks-marco.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "itil-4-great-achievement-for-cesario-marino",
+      "category": "News",
+      "title": "ITIL® 4: Great achievement for Cesario Marino!",
+      "shortText": "News that has Sydea welcomes, and communicates, with great pride!",
+      "longText": "<p>News that Sydea welcomes, and communicates, with great pride!</p><p>In the last few days, <b>Cesario Marino</b>, an employee working in the Bologna office, has achieved a goal that has the sweet taste of success.</p><p>Cesario has in fact passed, in an excellent manner, the exam for the <b>ITIL® 4 FOUNDATION</b> certification, after an important and demanding learning path.</p><p>Sydea hopes that this is only the first of many successes and personal upgrades that its employees will be able to achieve throughout their careers.</p><h2>What is ITIL® 4 FOUNDATION?</h2><p>ITIL 4 is without doubt the best known and most successful framework for IT service management. <b>ITIL Foundation (ITIL 4 Foundation Edition)</b> introduces participants to the Service Value System (SVS), which describes how all components and activities of the organisation work together as a system to facilitate the creation of value in the delivery of services (generally IT services, but not only). The ITIL SVS supports many working approaches, such as Agile, DevOps and Lean, as well as traditional process and project management, with a flexible value-oriented operating model and ultimately an end-to-end model for the creation, delivery and continuous improvement of technology products and services.</p><p>At the Foundation level of knowledge, you will understand how modern digitally-supported organisations operate, the importance of optimising value streams to increase efficiency and effectiveness, the importance of cultural and behavioural principles as well as all terminology used and needed in IT service management. The <b>ITIL 4 Foundation course</b> is delivered by iLEARN online (self-study), in the classroom and remotely.</p><h2>What is ITIL® 4 FOUNDATION for?</h2><p>At this level of knowledge, ITIL Foundation (ITIL4 Foundation Edition), resources are able to interact effectively and be part of Service Management teams following or aiming to follow best practices in this area. In particular, they will be able to understand the fundamental concepts, processes and practices and make a greater contribution to organisational excellence.</p><p>However, achieving this knowledge is important not only for the organisation but also for the individual. IT certifications, and certainly ITIL Foundation among them, are a key success factor and a prerequisite for many employers. This is because much research suggests that employees with the right certifications for the job are more confident, trustworthy and competent; they become proficient in their roles more quickly after initial hire and perform their jobs more effectively. This is especially true for ITIL Foundation in the area of IT Service Management.</p>",
+      "date": "04/06/2023",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/cesario-certifcation.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    }
+  ],
+  "it": [
+    {
+      "id": "attendance-and-smartworking-planning",
+      "category": "Communication",
+      "title": "Pianificazione presenze e smartworking",
+      "shortText": "Attiva la nuova procedura per la pianificazione settimanale delle presenze",
+      "longText": "<p>Entra in vigore la nuova <b>procedura per la pianificazione obbligatoria della presenza in ufficio e delle giornate di smartworking</b>.</p><p>L’obiettivo è migliorare l’organizzazione delle attività e garantire una gestione più efficace e condivisa delle presenze tra i diversi team.</p><p>La pianificazione dovrà essere effettuata esclusivamente tramite il modulo Time Off di Odoo, seguendo queste indicazioni principali:</p><ul><li>inserimento delle richieste con cadenza settimanale</li><li>pianificazione della settimana successiva entro il giovedì</li><li>approvazione da parte dei responsabili entro il venerdì</li></ul><p>La corretta e puntuale compilazione delle richieste rappresenta un elemento fondamentale per il coordinamento delle attività e per una gestione efficiente delle presenze.</p><p>È disponibile il regolamento completo nella Knowledge Base aziendale al seguente link: <a href='https://www.sydea.com/it/sydea-hub/sydea-knowledge-base/hr/attendance-absences/time-off-booking-office-and-smartworking' target='_blank'><b>[Prenotazione Time Off – Presenza in Ufficio e Smartworking]</b></a></p><p>Il rispetto delle tempistiche è essenziale per garantire una corretta organizzazione del lavoro.</p>",
+      "date": "15/04/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/calendar-planning.jpg",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "odoo-academy-crm-and-sales",
+      "category": "News",
+      "title": "Carlo Liaci all’Odoo Academy CRM & Sales",
+      "shortText": "Formazione pratica per migliorare i flussi commerciali",
+      "longText": "<p>Il nostro collega <b>Carlo Liaci</b> ha partecipato a Roma all’<b>Odoo Academy CRM & Sales</b>, una sessione immersiva dedicata a pipeline, gestione dei lead e automazione.</p><p>L’esperienza pratica ha permesso di approfondire le potenzialità di Odoo nel semplificare i flussi commerciali e favorire la collaborazione tra team.</p><p>Un’occasione preziosa per acquisire nuove competenze e rafforzare la nostra capacità di portare valore concreto nei progetti quotidiani.</p><div style='width: 100%; padding: 1rem; display: flex'><img src='https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/carlo-liaci-odoo-academy.png' style='width: 80%'></div>",
+      "date": "30/03/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/odoo-academy-roma-2026.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "odoo-business-show-skopje-2026",
+      "category": "News",
+      "title": "Sydea all’Odoo Business Show di Skopje",
+      "shortText": "Esperienze e idee condivise con la community Odoo",
+      "longText": "<p>Il 17 marzo Sydea ha partecipato come <b>Partner Sponsor</b> all’<b>Odoo Business Show</b> di <b>Skopje</b>.</p><p>Durante l’evento, il team ha avuto l’opportunità di confrontarsi con clienti, partner e nuovi contatti locali, raccogliendo feedback sui progetti in corso e suggerimenti per futuri sviluppi. È stato un momento importante per conoscere meglio le esigenze del mercato nord-macedone e condividere il nostro approccio al lavoro con ERP.</p><p>Sydea ha inoltre partecipato al <b>Partner Panel</b>, con l’intervento del collega <b>Gianmichele Mele</b>, che ha illustrato come le soluzioni ERP possano ottimizzare i processi aziendali e supportare decisioni più efficaci.</p><p>L’evento ha permesso al team di rafforzare rapporti già esistenti e di esplorare nuove opportunità di collaborazione nella regione.</p><p>Grazie a tutti i colleghi che hanno reso possibile la partecipazione e il successo dell’evento.</p>",
+      "date": "17/03/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/odoo-business-show-skopje.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "odoo-business-show-firenze-2026",
+      "category": "News",
+      "title": "Sydea all'Odoo Business Show di Firenze",
+      "shortText": "Un’occasione di confronto su ERP, innovazione e nuove collaborazioni",
+      "longText": "<p>Il 10 marzo Sydea ha partecipato come <b>Partner Sponsor</b> all’<b>Odoo Business Show</b> di <b>Firenze</b>.</p><p>Durante la giornata, il team ha incontrato clienti, partner e nuovi contatti presso lo stand, confrontandosi su esigenze, progetti e possibili sviluppi futuri. È stata un’occasione utile per presentare il nostro approccio e raccogliere spunti concreti dal mercato. </p><p>Sydea ha inoltre preso parte al <b>Partner Panel</b>, con l’intervento del collega <b>Carlo Liaci</b>, che ha condiviso la nostra visione su come gli ERP possano supportare in modo sempre più efficace i processi aziendali e il processo decisionale. </p><p>Per il team coinvolto è stata un’esperienza positiva, che ha permesso di rafforzare relazioni esistenti e aprire nuove opportunità di collaborazione. </p><p>Grazie a tutti i colleghi che hanno partecipato e contribuito alla buona riuscita dell’evento. </p>",
+      "date": "10/03/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/odoo-business-show-firenze.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "vacation-plan-2026",
+      "category": "Communication",
+      "title": "Piano Ferie 2026",
+      "shortText": "Modalità di pianificazione e scadenze",
+      "longText": "<p>Si ricorda che <b>il budget annuale di ferie da utilizzare ogni anno è pari a 22 giorni</b>. È quindi importante che ciascuno pianifichi correttamente le proprie assenze durante l’anno per evitare accumuli di ferie residue. <br />Chi dispone ancora di ferie residue non godute dovrà sommarle al budget disponibile da utilizzare nel corso dell’anno.</p><p>A partire da quest’anno la pianificazione ferie viene organizzata in due momenti dedicati ai periodi di maggiore concentrazione delle assenze:</p><ul><li><b>Piano ferie estivo – scadenza 30 giugno</b>: entro questa data dovranno essere inserite su Odoo le ferie previste nel periodo estivo (indicativamente il periodo compreso tra metà luglio e metà settembre). </li><li><b>Piano ferie invernale – scadenza 30 novembre</b>: entro questa data dovranno essere inserite su Odoo le ferie previste nel periodo invernale (indicativamente il periodo compreso tra metà dicembre e metà gennaio). </li></ul><p>Le ferie previste negli altri periodi dell’anno possono essere inserite normalmente su Odoo durante l’anno, secondo le consuete modalità di richiesta e approvazione.</p><p>Per qualsiasi dubbio o necessità potete rivolgervi all’ufficio HR.</p>",
+      "date": "09/02/2026",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/hero-piano-ferie-2026.jpg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "sydea-xperience-2025-programme-published",
+      "category": "News",
+      "title": "Pubblicato il programma di Sydea XPerience 2025!",
+      "shortText": "Napoli, 27-28 settembre 2025.",
+      "longText": "<p>È ufficialmente disponibile il programma completo di <b>Sydea XPerience 2025</b>, l’evento che riunirà tutti i team di Sydea per due giornate dedicate alla condivisione, alla crescita e al divertimento.</p><p>Il programma include tutti i momenti chiave dell’evento, dalla conferenza di apertura alle attività di team building e alle serate conviviali, pensati per celebrare insieme i dieci anni di Sydea e guardare con entusiasmo ai progetti futuri.</p><p>👉 Scopri tutti i dettagli del programma qui: <a href='sydea-hub/sydea-x-perience#info'><b>PROGRAMMA SYDEA XPERIENCE 2025</b></a></p>",
+      "date": "18/09/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/images/event-2025/x-perience-hero.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "rating-di-legalita",
+      "category": "News",
+      "title": "Rating di Legalità",
+      "shortText": "L’Autorità Garante della Concorrenza e del Mercato ha attribuito a Sydea il Rating di legalità con il punteggio ★++",
+      "longText": "<p>L’Autorità Garante della Concorrenza e del Mercato ha attribuito a Sydea il Rating di legalità con il punteggio ★++</p><p>Il <b>Rating di legalità</b> è un riconoscimento introdotto dall’<i>Autorità Garante della Concorrenza e del Mercato</i> (<b>AGCM</b>) con l’obiettivo di promuovere e valorizzare l’adozione di comportamenti etici da parte delle imprese. Si tratta di un indicatore sintetico che certifica il rispetto di elevati standard di legalità nell’attività aziendale.</p><p>Introdotto con il <i>Decreto Legge n. 1</i> del 24 gennaio 2012 e convertito in <i>Legge n. 27</i> del 24 marzo 2012, il rating rappresenta uno strumento concreto per incentivare la trasparenza e la correttezza nel sistema economico italiano, offrendo anche vantaggi concreti alle imprese che ne sono in possesso, ad esempio nell’accesso a finanziamenti pubblici e al credito bancario.</p><p>Possono richiedere il rating le imprese (sia individuali che societarie) che soddisfano i seguenti requisiti:<ul><li>sede operativa in Italia;</li><li>fatturato minimo di due milioni di euro nell’esercizio precedente alla domanda;</li><li>iscrizione nel Registro delle Imprese da almeno due anni;</li><li>rispetto dei requisiti previsti dal Regolamento attuativo.</li></ul></p><p>Il punteggio viene attribuito sulla base del rispetto dei requisiti obbligatori e, se presenti, di ulteriori criteri premianti.</p>",
+      "date": "09/05/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/rating-legalita.webp",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "vacation-plan-2025",
+      "category": "Communication",
+      "title": "Piano Ferie 2025",
+      "shortText": "Scadenza presentazione Piano Ferie 2025 su Odoo",
+      "longText": "<p>Anche quest’anno vi invitiamo a presentare il <b>Piano Ferie</b> per l’anno <b>2025</b> su Odoo.</p><br/><p>Vi ricordiamo che il <b>budget annuale Ferie</b> è di <b>22 giorni</b> e va consumato entro il <b>31 dicembre 2025</b> (salvo eccezioni da valutare caso per caso).</p><p>Chi ha ancora un <b>residuo di ferie non godute nel 2024</b> dovrà sommare tale valore al budget da utilizzare nel 2025.</p><p>La scelta dei periodi è libera, ma l’approvazione sarà soggetta a valutazione. Per il periodo estivo, vi chiediamo di <b>prediligere le settimane centrali di agosto</b>, laddove le esigenze lavorative e personali lo consentano.</p><br/><p><b>📅 Scadenza per la proposto del Piano Ferie: 16 maggio 2025</b></p><p>In assenza di proposta, il periodo verrà definito d’ufficio e proposto ai diretti interessati.</p><br/><p><b>🔹 Per chi è entrato in azienda nel 2025</b></p><p>Il budget ferie disponibile è visibile nel proprio profilo su Odoo (menu <i>Time off</i>) ed è proporzionale ai mesi effettivamente lavorati.<br/>Nel caso in cui non siano stati maturati abbastanza giorni per il periodo di ferie desiderato, è possibile andare a debito: i giorni in eccesso verranno scalati dal budget 2026.</p><br/><p>📌 <b>Le persone che non hanno consumato interamente il budget dello scorso anno verranno contattate singolarmente</b> per la verifica della situazione residua e l’integrazione nel piano 2025.</p>",
+      "date": "23/04/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/vacation-plan.webp",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "dipendenti-in-cloud-italy",
+      "category": "Communication",
+      "title": "Dipendenti in Cloud - Italia",
+      "shortText": "La nuova piattaforma per la gestione delle buste paga e dei documenti per le sedi italiane.",
+      "longText": "<p>Per i dipendenti delle sedi di Bologna e Napoli, a partire da marzo 2025, le buste paga e i documenti relativi non saranno più disponibili su <i>Cezanne</i>, ma verranno gestiti tramite la piattaforma <b>Dipendenti in Cloud</b>.</p><p>Entro martedì 11 marzo, verranno attivati gli account personali. Si invita a seguire le indicazioni contenute nella mail di registrazione per accedere alla piattaforma.</p><p>Le buste paga e i documenti precedenti saranno accessibili in qualsiasi momento sia tramite il sito web di <i>Dipendenti in Cloud</i> che attraverso l'app mobile, disponibile per dispositivi iOS e Android.</p><p><i>Dipendenti in Cloud</i> sostituisce <i>Cezanne</i> per la gestione delle buste paga e dei documenti. La registrazione delle presenze, la gestione di ferie, permessi e tutto ciò che riguarda il <i>Time Off</i> continueranno invece a essere gestiti su <i>Odoo</i>.</p>",
+      "date": "07/03/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/dipendenti-in-cloud.png",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "welcome-andrea-bozzaotra-and-alex-tinella",
+      "category": "News",
+      "title": "Benvenuti Andrea Bozzaotra e Alex Tinella",
+      "shortText": "Siamo lieti di dare il benvenuto ad Andrea Bozzaotra e Alex Tinella.",
+      "longText": "<p>Siamo lieti di dare il benvenuto ad <b>Andrea Bozzaotra</b> e <b>Alex Tinella</b>, che da oggi si uniscono alla famiglia Sydea!</p><p>Entrambi si uniscono al nostro team di <b>SAP</b> nell'ufficio di Napoli. <br/>Andrea entrerà nel team di Francesco Agrillo, mentre Alex sarà gestito da Pietro Natale.</p><p>Entrambi vantano una giovane età, confermando ancora una volta la volontà di Sydea di investire nei giovani talenti.</p><p>Siamo felici di averli con noi e auguriamo loro un percorso di crescita e di soddisfazione.</p><div style='display:flex; gap: 2rem;'><div style='width:20%;'><img src='https://s3.eu-west-1.amazonaws.com/www.sydea.it/static/people/a.bozzaotra.circle.png' style='width:100%'/><p style='text-align:center;'><b>Andrea Bozzaotra</b></p></div><div style='width:20%;'><img src='https://s3.eu-west-1.amazonaws.com/www.sydea.it/static/people/a.tinella.circle.png' style='width:100%'/><p style='text-align:center;'><b>Alex Tinella</b></p></div></div>",
+      "date": "06/02/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/new-employee-2.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "welcome-to-giulio-colonelli-our-new-senior-abap-developer",
+      "category": "News",
+      "title": "Benventuo a Giulio Colonelli, il nostro nuovo Senior ABAP Developer",
+      "shortText": "Giulio Colonelli entra nel team Sydea come Senior ABAP Developer.",
+      "longText": "<div class='d-responsive-news'><div style='padding: 1rem' class='w-responsive-30'><img src='https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/giulio-colonelli.jpg' style='width:100%'/></div><div style='padding: 1rem' class='w-responsive-70'><p>Sydea continua a crescere e siamo lieti di dare il benvenuto a <b>Giulio Colonelli</b>, che si è unito al nostro team il 2 gennaio come <b>Senior ABAP Developer</b>, all'interno del team di Pietro Natale.</p><p>Giulio porta con sé 8 anni di esperienza nello sviluppo ABAP, con una specializzazione nei moduli SAP <b>MM</b>, <b>FI</b>, e <b>CO</b>. <br/>Ha inoltre acquisito esperienza in <b>SAP Fiori</b> e si distingue per le sue competenze nella <b>migrazione dati</b>,, in particolare nella transizione da Oracle a SAP.</p><p>Oltre al suo solido background SAP, Giulio ha 3 anni di esperienza come <b>sviluppatore web</b>, che gli fornisce una prospettiva più ampia sulle tecnologie e gli permette di contribuire con un approccio innovativo allo sviluppo.</p><p>Attualmente sta lavorando ai progetti ABK Gardenia e Atos, dove sfrutterà la sua esperienza tecnica per supportare il team e contribuire al successo delle soluzioni implementate.</p><p>Siamo entusiasti di averlo a bordo e siamo certi che la sua esperienza e le sue capacità saranno una risorsa preziosa per Sydea.</p><p><b>Benvenuto, Giulio! Ti auguriamo un grande successo nel tuo nuovo ruolo!</b></p></div></div>",
+      "date": "17/01/2025",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/new-employee.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "welcome-ivana-nakova-to-our-team-in-skopje",
+      "category": "News",
+      "title": "Diamo il benvenuto a Ivana Nakova nel nostro team di Skopje",
+      "shortText": "Un nuovo capitolo per il nostro team di Skopje con l'arrivo di Ivana Nakova come SAP Senior Technical Consultant.",
+      "longText": "<p>Siamo lieti di annunciare che il nostro ufficio di <b>Skopje</b> ha recentemente dato il benvenuto a <b>Ivana Nakova</b>, che si è unita al nostro team come SAP Senior Technical Consultant.</p><p>Con il suo entusiasmo e la sua competenza, Ivana ha già iniziato ad avere un impatto significativo sui nostri progetti.</p><p>Siamo certi che la sua presenza apporterà un grande valore aggiunto al team e a Sydea nel suo complesso, sostenendo la nostra continua crescita.</p><p>Diamo tutti un caloroso benvenuto a Ivana, augurandole un percorso professionale ricco di soddisfazioni e di successi!</p><p>Grazie a tutti voi per il vostro continuo sostegno e per lo spirito di squadra, che sono le vere forze trainanti della nostra azienda.</p>",
+      "date": "10/12/2024",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/Skopje-square.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "christmas-bonus-2024-italy",
+      "category": "Communication",
+      "title": "Bonus Natale 2024 - Italia",
+      "shortText": "Linee guida e procedura di richiesta per il bonus natalizio 2024 dello Stato italiano",
+      "longText": "<p>L'Agenzia delle Entrate ha recentemente pubblicato le linee guida per il <b>Bonus NatalE 2024</b>, un'agevolazione prevista dal Decreto Omnibus (D.L. 113/2024) per i lavoratori dipendenti in possesso di specifici requisiti reddituali e familiari.</p><p>Secondo la circolare, il bonus può arrivare fino a 100 euro e sarà pagato insieme alla tredicesima di dicembre.</p><p><b>Requisiti per richiedere il bonus:</b></p><ul><li>Reddito complessivo nel 2024 non superiore a 28.000 euro</li><li>Un coniuge legalmente ed effettivamente non separato e almeno un figlio a carico</li><li>Una trattenuta alla voce “Ritenute IRPEF” della busta paga</li></ul><p>Se siete in una situazione familiare monoparentale (separati, vedovi, genitori affidatari, o altre circostanze specifiche), potete comunque richiedere il bonus con almeno un figlio a carico.</p><p>Se ritenete di possedere i requisiti richiesti, compilate e firmate il modulo allegato e inviatelo a <a href=‘mailto:amministrazione@sydea.it’>amministrazione@sydea.it</a> entro il 30 novembre 2024.</p>",
+      "date": "12/11/2024",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/bonus-natale.jpg",
+      "group": ["Bologna", "Napoli"]
+    },
+    {
+      "id": "thanks-marco-good-luck",
+      "category": "News",
+      "title": "Grazie Marco, buona fortuna!",
+      "shortText": "Sydea comunica che quella trascorsa è stata l'ultima di Marco Tugnolo come membro del nostro team di sviluppo.",
+      "longText": "<p>Sydea desidera annunciare che questo è stato l'ultimo giorno di <b>Marco Tugnolo</b> come membro del nostro team di sviluppo.</p><p>L'azienda ringrazia Marco per il lavoro e l'impegno profuso durante tutto il periodo trascorso in Sydea e gli augura le migliori fortune per la sua carriera professionale di sviluppatore..</p><p>Un grande abbraccio Marco, e buona fortuna!</p>",
+      "date": "17/07/2023",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/thanks-marco.jpeg",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    },
+    {
+      "id": "itil-4-great-achievement-for-cesario-marino",
+      "category": "News",
+      "title": "ITIL® 4: grande traguardo per Cesario Marino!",
+      "shortText": "Una notizia che Sydea accoglie, e comunica, con grande orgoglio!",
+      "longText": "<p>Nei giorni scorsi, <b>Cesario Marino</b>, dipendente della sede di Bologna, ha raggiunto un traguardo che ha il dolce sapore del successo.</p><p>Cesario ha infatti superato, in modo eccellente, l'esame per la certificazione <b>ITIL® 4 FOUNDATION</b>, dopo un importante e impegnativo percorso di apprendimento.</p><p>Sydea spera che questo sia solo il primo di molti successi e miglioramenti personali che i suoi dipendenti potranno ottenere nel corso della loro carriera.</p><h2>Che cos è ITIL® 4 FOUNDATION?</h2><p>ITIL 4 è senza dubbio il framework più conosciuto e di maggior successo per la gestione di servizi IT. <b>ITIL Foundation (ITIL 4 Foundation Edition)</b> introduce i partecipanti al Service Value System (SVS), che descrive il modo in cui tutti i componenti e le attività dell'organizzazione lavorano insieme come un sistema per facilitare la creazione di valore nella fornitura di servizi (generalmente servizi IT, ma non solo). L’ITIL SVS supporta molti approcci di lavoro, come Agile, DevOps e Lean, oltre al procedimento tradizionale e il project management, con un modello operativo flessibile orientato al valore e infine un modello end-to-end per la creazione, la fornitura ed il miglioramento continuo di prodotti e servizi tecnologici.</p><p>Al livello di conoscenze Foundation, comprenderete come operano le moderne organizzazioni supportate dalle tecnologie digitali, l'importanza di ottimizzare i flussi di valore per aumentare l'efficienza e l'efficacia, l’importanza dell'aspetto culturale e dei principi comportamentali nonché tutta la terminologia utilizzata e necessaria nella gestione dei servizi IT. Il <b>corso ITIL 4 Foundation</b> è erogato da iLEARN online (autoapprendimento), in aula e da remoto.</p><h2>A cosa serve ITIL® 4 FOUNDATION?</h2><p>A questo livello di conoscenze, ITIL Foundation (ITIL4 Foundation Edition), le risorse sono in grado di interagire in modo efficace e di far parte di team di Service Management seguendo o con l’obiettivo di seguire le best practice in questo ambito. In particolare, saranno in grado di comprendere i concetti, i processi e le pratiche fondamentali e di dare maggiore contributo all'eccellenza dell’organizzazione.</p><p>Tuttavia, il raggiungimento di questa conoscenza è importante non solo per l'organizzazione di appartenenza ma anche per l'individuo. Le certificazioni IT e, tra queste, sicuramente ITIL Foundation, rappresentano un fattore chiave di successo ed un requisito fondamentale per molti datori di lavoro. Questo perché molte ricerche suggeriscono che i dipendenti che possiedono delle certificazioni adeguate al lavoro sono più sicuri, affidabili e competenti; diventano abili nei propri ruoli più rapidamente dopo l'assunzione iniziale e svolgono il proprio lavoro in modo più efficace. Ciò è particolarmente vero per ITIL Foundation nell’ambito dell'IT Service Management.</p>",
+      "date": "04/06/2023",
+      "imageLink": "https://d3t3s6w5yvhc3g.cloudfront.net/static/internal-news/images/cesario-certifcation.png",
+      "group": ["Bologna", "Napoli", "Skopje"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.hero-industries-det {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+}
+
+.box-desc-industry {
+  padding: 2rem 10rem 2rem 0rem;
+}
+
+@media (max-width: 480px) {
+  .box-desc-industry {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,98 @@
+.branch-view {
+  display: flex;
+}
+.box-org .reactOrgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle {
+  border-right: solid 2px #f7f7f7;
+}
+
+.box-org .reactOrgChart .nodeLineBorderTop {
+  border-top: solid 2px #f7f7f7;
+}
+
+
+
+.help-icon-org-chart {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: #f7f7f7;
+  height: 20px !important;
+  width: 20px !important;
+  display: block;
+}
+
+
+
+/* From Uiverse.io by joe-watson-sbf */ 
+.my-card {
+    // width: 210px;
+    height: 400px;
+    display: flex;
+  }
+  
+  .my-card .detail-card-ord {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #212121;
+    // border: 1px solid #fece2f;
+    border:  1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .my-card .detail-card-ord:hover {
+    flex: 3;
+  }
+  
+  .my-card .detail-card-ord .label-area-org {
+    min-width: 14em;
+    // min-width: max-content;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #fece2f;
+    letter-spacing: .1em;
+  }
+  
+  .my-card .detail-card-ord:hover .label-area-org {
+    transform: rotate(0);
+  }
+
+  .my-card .detail-card-ord:hover {
+    .team-1-visibility{
+        // display: block !important;
+        animation: showTeamLeader 1s ease-in-out forwards;
+      }
+      border: 1px solid #fece2f;
+  }
+
+  .team-1-visibility{
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  
+  @keyframes showTeamLeader {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+      width: max-content;
+      height: max-content;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+      width: max-content;
+      height: max-content;
+    }
+  }

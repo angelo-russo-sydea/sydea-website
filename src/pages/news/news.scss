@@ -1,0 +1,168 @@
+.syd-news-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  padding: 0.5rem;
+  &:nth-child(even) {
+    direction: rtl;
+  }
+}
+
+.grid-news-card-s {
+  grid-column: span 3;
+  grid-row: span 1;
+  height: 15rem;
+}
+
+.grid-news-card-0,
+.grid-news-card-3 {
+  grid-column: span 6;
+  height: 30rem;
+  grid-row: span 2;
+}
+
+.grid-news-card-4,
+.grid-news-card-6,
+.grid-news-card-8 {
+  grid-column: span 6;
+  height: 15rem;
+  grid-row: span 1;
+}
+
+.grid-news-card-7 {
+  height: auto;
+  grid-row: span 2;
+}
+
+.insights-card-news {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+  height: 15rem;
+  background: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  &:hover {
+    .insights-image {
+      transform: scale(1.02);
+    }
+    .insights-title-card {
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+  &.card-l {
+    display: flex;
+    height: 100%;
+  }
+}
+
+.btn-more {
+  visibility: visible;
+  &.hidden {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-news-card-0,
+  .grid-news-card-1,
+  .grid-news-card-2,
+  .grid-news-card-3,
+  .grid-news-card-4,
+  .grid-news-card-5,
+  .grid-news-card-6,
+  .grid-news-card-7,
+  .grid-news-card-8,
+  .grid-news-card-9 {
+    grid-column: span 12;
+    height: 15rem;
+    grid-row: span 1;
+  }
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #000;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.news-btn-more {
+  width: max-content;
+  cursor: pointer;
+  &:hover {
+    color: var(--sydYellow);
+  }
+}
+
+.text-news-desc {
+  color: #fff;
+}
+
+

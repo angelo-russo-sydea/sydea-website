@@ -1,0 +1,43 @@
+.header-services {
+  background-color: var(--lightBg);
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-area{
+  width: 100%;
+  line-height: normal;
+  &:hover{
+    h3{
+      color: #cdcdcd;
+    }
+    .arrow-title-service{
+      fill: #cdcdcd;
+    }
+    .box-arrow-title-service{
+      left: .5rem;
+    }
+  }
+}
+
+.title-service-sticky{
+  position: sticky;
+  left: 0;
+  top: 6rem;
+  z-index: 2;
+}
+
+.box-arrow-title-service{
+  left: 0;
+  position: relative;
+  transition: left .5s;
+}
+
+.arrow-title-service{
+  fill: #cdcdcd;
+}
+
+.syd-box-service{
+  border: 1px solid #fece2f;
+  border-radius: 5px;
+}

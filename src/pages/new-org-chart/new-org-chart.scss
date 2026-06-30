@@ -1,0 +1,45 @@
+.saerchbar-org-chart {
+  border: 1px solid #fece2f;
+  background: transparent;
+  color: #f7f7f7;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+.node-main-area {
+  background-color: #342800 !important;
+}
+
+.row-tools-org-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.5rem;
+  gap: 1.5rem;
+}
+
+.width-detail-card {
+  width: 25%;
+}
+
+.avatar-people {
+  position: absolute;
+  top: -40px;
+}
+
+@media (max-width: 480px) {
+  .hide-mobile {
+    display: none !important;
+  }
+  .row-tools-org-chart {
+    gap: 10px;
+  }
+  .width-detail-card {
+    width: 85%;
+  }
+  .btn-switch-group {
+    font-size: 10px !important;
+  }
+}

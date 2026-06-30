@@ -1,0 +1,12 @@
+#syd-sitemap{
+  & a{
+    color: var(--sydBlack);
+    &:hover{
+      color: var(--sydYellow);
+    }
+  }
+  & ul{
+    list-style: none;
+    padding-left: .5rem;
+  }
+}

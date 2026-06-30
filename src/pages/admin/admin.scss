@@ -1,0 +1,50 @@
+.box-admin {
+  border: 2px solid #141414;
+}
+
+.btn-dash {
+  border: 2px solid #141414;
+  background-color: #141414;
+  color: #f6f6f6;
+  &:hover {
+    color: #fece2f;
+  }
+}
+
+.btn-back-home {
+  color: #141414;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #fece2f;
+  }
+}
+
+.btn-dash-nav{
+  background-color: #141414 !important;
+  color: #fff !important;
+  & a{
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover{
+    background-color: #292929 !important;
+    color: #fece2f !important;
+    & a{
+      color: #fece2f !important;
+    }
+  }
+}
+
+.card-admin-dash{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out !important;
+  &:hover{
+    transform: scale(1.02);
+    filter: drop-shadow(1px 4px 4px #b2b2b2);
+  }
+}
+
+.bg-position{
+  background-position: top center !important;
+}

@@ -1,0 +1,33 @@
+.btn-back-top {
+  bottom: 1.5rem;
+  position: fixed;
+  right: 1.5rem;
+  z-index: 1;
+  font-size: 20px;
+  background-color: var(--sydBlack);
+  color: black;
+  width: 45px;
+  height: 45px;
+  border: 2px solid var(--sydWhite);
+  cursor: pointer;
+  animation: bounce_513 1s infinite;
+  z-index: 99;
+}
+
+.arrow {
+  fill: var(--sydWhite);
+  margin: auto;
+}
+
+@keyframes bounce_513 {
+  0%,
+  100% {
+    transform: translateY(-10%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

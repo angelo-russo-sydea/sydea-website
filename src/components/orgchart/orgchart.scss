@@ -1,0 +1,129 @@
+.reactOrgChart {
+  margin: 2px;
+}
+
+.reactOrgChart .orgNodeChildGroup .node {
+  border: solid 1px #000000;
+  display: inline-block;
+  padding: 4px;
+  width: 100px;
+}
+
+// .reactOrgChart .orgNodeChildGroup .nodeCell {
+//     text-align: center;
+// }
+
+.reactOrgChart .orgNodeChildGroup .nodeGroupCell {
+  vertical-align: top;
+}
+
+.reactOrgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle {
+  height: 25px;
+  width: 50%;
+  border-right: 2px solid #000;
+}
+
+.reactOrgChart .nodeLineBorderTop {
+  border-top: solid 2px #000;
+}
+
+.reactOrgChart table {
+  border-collapse: collapse;
+  border: none;
+  margin: 0 auto;
+}
+
+.reactOrgChart td {
+  padding: 0;
+}
+
+.reactOrgChart table.nodeLineTable {
+  width: 100%;
+}
+
+.reactOrgChart table td.nodeCell {
+  width: 50%;
+  padding: 0 0.3rem;
+}
+
+.row-org-chart {
+  gap: 1rem;
+}
+
+.team-field {
+  border: 1px solid red;
+}
+
+// .team-members-container {
+//     display: flex;
+//     justify-content: flex-start;
+//     gap: 10px;
+//   }
+
+//   .team-member {
+//     margin-left: 20px;
+//     text-align: center;
+//   }
+
+//   .nodeGroupCell {
+//     padding: 10px;
+//     vertical-align: top;
+//   }
+
+//   .team-members {
+//     vertical-align: top;
+//   }
+
+//   .orgNodeChildGroup {
+//     margin-bottom: 30px;
+//     border-collapse: separate;
+//   }
+.team-members-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.team-member {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.nodeGroupCell {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.team-members {
+  vertical-align: top;
+}
+
+.orgNodeChildGroup {
+  margin-bottom: 30px;
+  border-collapse: separate;
+}
+
+.team-leader-name {
+  color: #f7f7f7;
+  &.right {
+    text-align: right;
+  }
+}
+
+.row-team {
+  border: 1px solid red;
+  width: 300px;
+}
+
+.row-team-member{
+    width: max-content;
+}
+
+.team-dx-sx{
+    position: absolute;
+    right: 0;
+}
+.team-sx-dx{
+    position: absolute;
+    left: 0;
+}

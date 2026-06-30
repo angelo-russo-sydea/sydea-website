@@ -1,0 +1,245 @@
+.lt-col-services {
+  background-color: var(--lightBg);
+}
+
+.rt-col-services {
+  background: var(--opacityDarkBg);
+}
+
+.col-services {
+  &.lt {
+    background-color: var(--lightBg);
+  }
+  &.rt {
+    background: var(--opacityDarkBg);
+  }
+}
+
+.box-services-home {
+  height: 100%;
+  &:hover {
+    box-shadow: 5px 4px 10px 0px #c3c3c3;
+  }
+}
+
+.services-title {
+  color: var(--dark-mode-title);
+}
+
+.box-serv-home {
+  // border: 3px solid var(--dark-mode-title);
+  // color: var(--sydYellow);
+  // -webkit-transform: translateX(1000px);
+  // transform: translateX(1000px);
+  opacity: 0;
+  // transition: opacity 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940), transform 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  // overflow: hidden;
+  border-radius: 5px;
+  background: #212121;
+}
+
+.box-serv-home.visible {
+  // -webkit-transform: translateX(0);
+  // transform: translateX(0);
+  opacity: 1;
+  -webkit-animation: fade-in-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+// @-webkit-keyframes slide-in-right {
+//   0% {
+//     -webkit-transform: translateX(1000px);
+//             transform: translateX(1000px);
+//     opacity: 0;
+//   }
+//   100% {
+//     -webkit-transform: translateX(0);
+//             transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
+// @keyframes slide-in-right {
+//   0% {
+//     -webkit-transform: translateX(1000px);
+//             transform: translateX(1000px);
+//     opacity: 0;
+//   }
+//   100% {
+//     -webkit-transform: translateX(0);
+//             transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
+
+.sect-serv-w-small {
+  width: 30%;
+}
+
+.sect-serv-w-large {
+  width: 70%;
+}
+
+// .sap-bg {
+//   background: url("../../../assets/services/sap.png");
+// }
+
+// .neptune-software-bg {
+//   background: url("../../../assets/services/neptune-software.jpg");
+// }
+
+// .digital-bg {
+//   background: url("../../../assets/services/digital.png");
+// }
+
+// .training-bg {
+//   background: url("../../../assets/services/training.png");
+// }
+
+.sect-services-hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+// .box-serv-home {
+//   &:nth-child(even) {
+//     .row-section-service {
+//       flex-direction: row-reverse;
+//     }
+//   }
+//   &:first-child {
+//     .sect-serv-w-large {
+//       background-color: var(--sydYellow);
+//     }
+//   }
+//   &:nth-child(2n) {
+//     .sect-serv-w-large {
+//       background-color: var(--sydWhite);
+//     }
+//   }
+//   &:nth-child(3n) {
+//     .sect-serv-w-large {
+//       background-color: var(--sydBlack);
+//       color: var(--sydYellow);
+//       & p {
+//         color: var(--sydWhite);
+//       }
+//     }
+//   }
+//   &:nth-child(4n) {
+//     .sect-serv-w-large {
+//       background-color: var(--sydYellow);
+//     }
+//   }
+// }
+
+.arrow-box-services {
+  border: 2px solid;
+  width: max-content;
+  opacity: 0;
+  left: -1rem;
+  position: relative;
+  transition: left 0.5s, opacity 0.5s;
+}
+
+.row-section-service {
+  width: 80%;
+  &:hover {
+    color: var(--dark-mode-title);
+    .arrow-box-services {
+      opacity: 1;
+      left: 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .sect-serv-w-small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .sect-serv-w-large {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: transparent !important;
+    color: var(--sydWhite);
+    & p {
+      color: var(--sydWhite);
+    }
+    & h3 {
+      color: var(--sydYellow);
+    }
+  }
+
+  .box-serv-home {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  // .sap-bg {
+  //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/services/sap.png");
+  // }
+
+  // .neptune-software-bg {
+  //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/services/neptune-software.jpg");
+  // }
+
+  // .digital-bg {
+  //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/services/digital.png");
+  // }
+
+  // .training-bg {
+  //   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/services/training.png");
+  // }
+
+  .row-section-service {
+    width: 100%;
+  }
+
+  // .box-serv-home {
+  //   &:nth-child(even) {
+  //     .row-section-service {
+  //       flex-direction: row-reverse;
+  //       text-align: end;
+  //       & h3{
+  //         justify-content: flex-end !important;
+  //       }
+  //     }
+  //     .arrow-box-services{
+  //       display: none !important;
+  //     }
+  //   }
+  // }
+}

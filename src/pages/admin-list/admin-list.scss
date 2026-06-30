@@ -1,0 +1,23 @@
+.col-ckbx{
+  width: 5%;
+}
+
+.col-info{
+  width: 95%;
+}
+
+.row-info-doc{
+  border-bottom: 1px solid #000;
+}
+
+.ckbx-admin-list{
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-load-more-list{
+  cursor: pointer;
+  background-color: var(--sydBlack);
+  color: var(--sydWhite);
+}

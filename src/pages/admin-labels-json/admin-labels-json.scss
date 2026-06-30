@@ -1,0 +1,37 @@
+pre {
+    background: #131313;
+    white-space: pre;
+    word-wrap: break-word;
+    overflow: auto;
+    width: 60vw;
+}
+
+pre.code {
+    border-radius: 4px;
+    position: relative;
+}
+
+pre.code code {
+    font-family: "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    display: block;
+    padding: 15px 16px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 19px;
+    color: #ddd;
+    background: #131313;
+}
+
+pre.code-html code {
+    color: #00a67d;
+}
+
+code span{
+    color: #df3079;
+    &.html-code{
+        color: #ff9500;
+    }
+    &.link-code{
+        color: #144afe;
+    }
+}

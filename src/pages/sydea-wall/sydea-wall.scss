@@ -1,0 +1,76 @@
+.box-employee {
+  // border: 1px solid red;
+  background-color: #fff;
+  &:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+}
+
+// .box-employee:nth-child(odd) {
+//   background-color: #ffffff;
+// }
+
+// .box-employee:nth-child(even) {
+//   background-color: #f3f3f3;
+// }
+
+.img-employee-card {
+  height: 100px;
+}
+
+.btn-vote {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+  &.empty-value{
+    filter: grayscale(1);
+  }
+  &:hover {
+    transform: scale(1.5);
+    filter: grayscale(0);
+  }
+}
+
+.badge-number {
+  color: #000000;
+  font-size: 12px;
+}
+
+.box-badge-rank {
+  border: 2px solid #000;
+}
+
+.header-rank {
+  background-color: #141414;
+  color: #fece2f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.img-badge-rank{
+  height: 30px;
+}
+
+.row-rank{
+  background-color: #f0f0f0;
+  &:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+}
+
+.first-rank{
+  background-color: #ffecae !important;
+}
+
+@media (max-width: 480px) {
+}
+
+@media (min-width: 768px) {
+  .custom-box {
+    width: 20%; /* Ogni box occupa il 20% della larghezza */
+    max-width: 20%; /* Limita la larghezza massima */
+  }
+}
