@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState, useRef } from "react";
 import "./contacts.scss";
 import { AppContext } from "../../services/translationContext";
 import { Buffer } from 'buffer';
@@ -7,12 +7,30 @@ import CircularProgress, {circularProgressClasses} from '@mui/material/CircularP
 
 const appOwner = process.env.REACT_APP_OWNER;
 const api = process.env.REACT_APP_URL_API;
+const turnstile_key = process.env.REACT_APP_TURNSTILE;
 
 export const Contacts = () => {
   const { services: { TranslationsService } } = useContext(AppContext);
   document.title = `${TranslationsService.labels(`menu.contact-us.label`)} | ${TranslationsService.getMainInfoCompany('name')}`;
   const [showToast, setShowToast] = useState('hide');
   const [isLoading, setIsLoading] = useState(false);
+
+  const widgetRef = useRef(null);
+  const widgetId = useRef(null);
+
+  useEffect(() => {
+    const renderWidget = () => {
+      if (!window.turnstile || !widgetRef.current) {
+        setTimeout(renderWidget, 100);
+        return;
+      }
+      if (widgetId.current !== null) return;
+      widgetId.current = window.turnstile.render(widgetRef.current, {
+        sitekey: turnstile_key,
+      });
+    };
+    renderWidget();
+  }, []);
 
   const formatTextWithBr = (text) => {
     let textArea = '';
@@ -143,9 +161,19 @@ export const Contacts = () => {
       }, 2000);
     }, 1000);
 
+    const turnstileToken = window.turnstile.getResponse(widgetId.current);
+    if (!turnstileToken) {
+      alert("Complete Human Verification before continue");
+      return;
+    }
+
     const requestOptions = {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-origin-verify': 'BB6a2U8jgygBYCqo8yfW8HT9P8EKafR2' },
+      headers: { 
+        'Content-Type': 'application/json', 
+        'x-origin-verify': 'BB6a2U8jgygBYCqo8yfW8HT9P8EKafR2',
+        'x-turnstile-response': turnstileToken,
+      },
       body: JSON.stringify(_body)
     };
 
@@ -426,6 +454,7 @@ export const Contacts = () => {
               />
                 {TranslationsService.labels(`textSubmitForm`)}
             </label>
+            <div ref={widgetRef}></div>
             <button type="submit" className="syd-button m-0 mb-3 px-5" disabled={isLoading} style={{textTransform: 'inherit', borderRadius:0, fontWeight: 'bold', padding: '1rem 4rem !important', fontSize:'1.125rem'}}>
               {TranslationsService.labels(`buttonSubmitForm`)}
             </button>
